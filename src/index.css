@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.active {
+    color: #7F22FE
+};
